@@ -383,10 +383,10 @@ elif st.session_state.page == "Info about the App":
 
     st.subheader("How the project works")
     st.write(
-        "1. We train the model locally using annual company data.  "
-        "2. We compute a small number of financial ratios.  "
-        "3. We save the trained model.  "
-        "4. In the app, we load the saved model, score the selected company, and compare it with same-SIC peers."
+        "1. We train the model locally using annual company data.  ",
+        "2. We compute a small number of financial ratios.  ",
+        "3. We save the trained model.  ",
+        "4. In the app, we load the saved model, score the selected company, and compare it with same-SIC peers.",
     )
 
     st.subheader("Ratios and formulas used in the project")
